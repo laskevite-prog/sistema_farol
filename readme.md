@@ -33,7 +33,7 @@ Não há dependências externas além do Python 3.x (Tkinter já vem incluído n
 
 ---
 
-## 🖥 Uso
+## Uso
 ### Inicialização do banco
 ```bash
 python app.py init-db
