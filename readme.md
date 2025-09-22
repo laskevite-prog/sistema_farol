@@ -6,7 +6,7 @@ Sistema de automação para bares e pequenos estabelecimentos. Desenvolvido em *
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - **Caixa**: abertura, fechamento com controle de divergência.
 - **Estoque**: cadastro de produtos (CRUD completo).
 - **Vendas**: registro de vendas com verificação de estoque e transações atômicas.
@@ -15,14 +15,14 @@ Sistema de automação para bares e pequenos estabelecimentos. Desenvolvido em *
 
 ---
 
-## 📦 Instalação
+##  Instalação
 Clone o repositório e entre na pasta do projeto:
 ```bash
 git clone https://github.com/seu-usuario/farol-automacao.git
 cd farol-automacao
 ```
 
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+Crie e ative um ambiente virtual:
 ```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
@@ -33,7 +33,7 @@ Não há dependências externas além do Python 3.x (Tkinter já vem incluído n
 
 ---
 
-## 🖥️ Uso
+## 🖥 Uso
 ### Inicialização do banco
 ```bash
 python app.py init-db
@@ -86,7 +86,7 @@ python app.py test
 
 ---
 
-## ✅ Testes
+## Testes
 A suíte de testes (`unittest`) cobre:
 - Inicialização e relatórios sem vendas.
 - CRUD de produtos.
@@ -97,7 +97,7 @@ A suíte de testes (`unittest`) cobre:
 
 ---
 
-## 📌 Roadmap de Evoluções
+## Roadmap de Evoluções
 - Rotina de ajuste de caixa em divergências.
 - Gestão de usuários e permissões.
 - Exportação de relatórios (CSV/PDF).
@@ -105,11 +105,4 @@ A suíte de testes (`unittest`) cobre:
 
 ---
 
-## 📷 Screenshots (GUI)
-*(adicione capturas de tela aqui quando rodar localmente com Tkinter)*
-
----
-
-## 📝 Licença
-Este projeto é de uso **didático/acadêmico**. Fique à vontade para modificar e evoluir conforme sua necessidade.
 
